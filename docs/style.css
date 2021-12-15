@@ -33,7 +33,7 @@ section select {
     border:1px solid #aaa;
     border-left: none;
 }
-button {
+main > button {
     border:1px solid black;
     background:white;
     width:100%;
