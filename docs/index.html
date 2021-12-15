@@ -13,24 +13,32 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
         }
+
+
     </script>
     <meta name="theme-color" content="#ccffcc">
-    <link rel="apple-touch-icon" href="icon192.png">       
+    <link rel="apple-touch-icon" href="icon192.png">
 </head>
 <body>
-    <main>
-        <h1>Fx Calculator</h1>
-        <section>
-            <label for="input-value">Input</label>
-            <input id="input-value" type="number" name="input-value">
-            <select title="Input Currency" name="input-currency"></select>
-        </section>
-        <section>
-            <label for="output-value">Output</label>
-            <input id="output-value" name="output-value" readonly>
-            <select title="Output Currency" id="output-currency" name="output-currency"></select>
-        </section>
-        <button>Calculate</button>
-    </main>
+<main>
+    <h1>Fx Calculator</h1>
+    <section>
+        <label for="input-value">Input</label>
+        <input id="input-value" type="number" name="input-value">
+        <select title="Input Currency" name="input-currency"></select>
+    </section>
+    <section>
+        <label for="output-value">Output</label>
+        <input id="output-value" name="output-value" readonly>
+        <select title="Output Currency" id="output-currency" name="output-currency"></select>
+    </section>
+    <button>Calculate</button>
+</main>
+<article>
+    <h2>Install App</h2>
+    <p>Do you want to install the App locally and for offline use?</p>
+    <button data-id="install-yes">Yes</button>
+    <button data-id="install-no">No</button>
+</article>
 </body>
 </html>
